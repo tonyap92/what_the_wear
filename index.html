@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- style -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>What to Wear</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+      <div id="content">
+
+        <div id="start">
+          <h1>What to Wear?</h1>
+          <img src="img/pict1.png" alt="">
+          <button id="btn-go">Let's Go!</button>
+        </div>
+
+        <div id="selection">
+          <p>Find out what to wear based on the <br> <b>season, temperature and weather!</b></p>
+          <label for="season">Select a season:</label>
+          <select id="season">
+            <option value="Winter">Winter</option>
+            <option value="Spring">Spring</option>
+            <option value="Summer">Summer</option>
+            <option value="Autumn">Autumn</option>
+          </select>
+          <label for="temperature">Temperature (°C):</label>
+          <input type="number" id="temperature" value="0">
+          <label for="weather">Select the weather:</label>
+          <select id="weather">
+            <option value="Sunny">Sunny</option>
+            <option value="Rainy">Rainy</option>
+            <option value="Cloudy">Cloudy</option>
+            <option value="Windy">Windy</option>
+          </select>
+          <button id="btn-result">View Result</button>
+        </div>
+
+
+        <div id="result">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="clothingOptions.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

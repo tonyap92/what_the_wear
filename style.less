@@ -1,0 +1,168 @@
+// MAIN
+
+html *,
+html ::after,
+html ::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 100%;
+  min-width: 320px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  color: #f5f5f5;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 375px;
+  width: 100%;
+  height: 687px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#content {
+  padding: 123px 16px 42px;
+}
+
+h1 {
+  margin-bottom: 44px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #434343;
+}
+
+#start {
+  text-align: center;
+  img {
+    margin-bottom: 107px;
+  }
+}
+
+#selection {
+  p {
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #c1c1c1;
+    b {
+      color: #000000;
+    }
+  }
+
+  label {
+    margin-bottom: 5px;
+    display: block;
+
+    color: black;
+    font-size: 16px;
+  }
+
+  select,
+  input {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 24px;
+    padding: 11px;
+
+    border: 1px solid #d1d1d1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    resize: none;
+    outline: none;
+
+    color: #787878;
+    z-index: 2;
+    background-color: transparent;
+  }
+}
+
+#weather {
+  margin-bottom: 117px !important;
+}
+
+#result {
+  text-align: center;
+  img {
+    margin-bottom: 34px;
+  }
+  p {
+    height: 58px;
+    margin-bottom: 181px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.32px;
+    color: #000000;
+  }
+}
+
+#btn-go,
+#btn-result,
+#btn-back {
+  max-width: 343px;
+  width: 100%;
+  height: 51px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  text-align: center;
+  letter-spacing: -0.32px;
+
+  color: #ffffff;
+
+  background: #7346f6;
+  border-radius: 100px;
+  border: none;
+
+  cursor: pointer;
+}
